@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Arcanine",
+    "weight": 155,
+    "pokeApiId": 59
+  },
+  {
+    "name": "Hisuian Arcanine",
+    "weight": 168,
+    "pokeApiId": 10230
+  },
+  {
+    "name": "Camerupt",
+    "weight": 220,
+    "pokeApiId": 323
+  },
+  {
+    "name": "Mega Camerupt",
+    "weight": 320.5,
+    "pokeApiId": 10087
+  },
+  {
+    "name": "Charizard",
+    "weight": 90.5,
+    "pokeApiId": 6
+  },
+  {
+    "name": "Mega Charizard X",
+    "weight": 110.5,
+    "pokeApiId": 10034
+  },
+  {
+    "name": "Mega Charizard Y",
+    "weight": 100.5,
+    "pokeApiId": 10035
+  },
+  {
+    "name": "Emboar",
+    "weight": 150,
+    "pokeApiId": 500
+  },
+  {
+    "name": "Mega Emboar",
+    "weight": 180.3,
+    "pokeApiId": 10286
+  },
+  {
+    "name": "Golurk",
+    "weight": 330,
+    "pokeApiId": 623
+  },
+  {
+    "name": "Mega Golurk",
+    "weight": 330,
+    "pokeApiId": 10313
+  },
+  {
+    "name": "Incineroar",
+    "weight": 83,
+    "pokeApiId": 727
+  },
+  {
+    "name": "Rhyperior",
+    "weight": 282.8,
+    "pokeApiId": 464
+  },
+  {
+    "name": "Skeledirge",
+    "weight": 326.5,
+    "pokeApiId": 911
+  },
+  {
+    "name": "Snorlax",
+    "weight": 460,
+    "pokeApiId": 143
+  },
+  {
+    "name": "Torkoal",
+    "weight": 80.4,
+    "pokeApiId": 324
+  }
+]
