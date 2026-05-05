@@ -1,7 +1,7 @@
 {
   "name": "heavy-slam",
   "version": "0.1.0",
-  "homepage": "alchengan.github.io/heavy-slam",
+  "homepage": "https://alchengan.github.io/heavy-slam",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.14.0",
