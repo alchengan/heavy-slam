@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alchengan.github.io/heavy-slam/static/css/main.1c337a6e.css",
-    "main.js": "/alchengan.github.io/heavy-slam/static/js/main.50c1f799.js",
-    "static/js/453.92274083.chunk.js": "/alchengan.github.io/heavy-slam/static/js/453.92274083.chunk.js",
-    "index.html": "/alchengan.github.io/heavy-slam/index.html",
-    "main.1c337a6e.css.map": "/alchengan.github.io/heavy-slam/static/css/main.1c337a6e.css.map",
-    "main.50c1f799.js.map": "/alchengan.github.io/heavy-slam/static/js/main.50c1f799.js.map",
-    "453.92274083.chunk.js.map": "/alchengan.github.io/heavy-slam/static/js/453.92274083.chunk.js.map"
+    "main.css": "/heavy-slam/static/css/main.1c337a6e.css",
+    "main.js": "/heavy-slam/static/js/main.cc67f745.js",
+    "static/js/453.92274083.chunk.js": "/heavy-slam/static/js/453.92274083.chunk.js",
+    "index.html": "/heavy-slam/index.html",
+    "main.1c337a6e.css.map": "/heavy-slam/static/css/main.1c337a6e.css.map",
+    "main.cc67f745.js.map": "/heavy-slam/static/js/main.cc67f745.js.map",
+    "453.92274083.chunk.js.map": "/heavy-slam/static/js/453.92274083.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c337a6e.css",
-    "static/js/main.50c1f799.js"
+    "static/js/main.cc67f745.js"
   ]
 }
