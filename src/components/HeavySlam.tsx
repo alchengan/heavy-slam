@@ -15,7 +15,6 @@ export default function HeavySlam() {
   const [slammerWeights, setSlammerWeights] = useState<PokemonWeight[]>([]);
   const [crasherWeights, setCrasherWeights] = useState<PokemonWeight[]>([]);
 
-  // TODO: toggle between heavy slam and heat crash
   const [crashing, setCrashing] = useState(false);
 
   const [attackWeight, setAttackWeight] = useState(0);
