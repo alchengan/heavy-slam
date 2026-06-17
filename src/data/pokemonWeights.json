@@ -1,1372 +1,1623 @@
 [
-  {
-    "name": "Abomasnow",
-    "weight": 135.5,
-    "pokeApiId": 460
-  },
-  {
-    "name": "Mega Abomasnow",
-    "weight": 185,
-    "pokeApiId": 10060
-  },
-  {
-    "name": "Absol",
-    "weight": 47,
-    "pokeApiId": 359
-  },
-  {
-    "name": "Mega Absol",
-    "weight": 49,
-    "pokeApiId": 10057
-  },
-  {
-    "name": "Aegislash",
-    "weight": 53,
-    "pokeApiId": 681
-  },
-  {
-    "name": "Aerodactyl",
-    "weight": 59,
-    "pokeApiId": 142
-  },
-  {
-    "name": "Mega Aerodactyl",
-    "weight": 79,
-    "pokeApiId": 10042
-  },
-  {
-    "name": "Aggron",
-    "weight": 360,
-    "pokeApiId": 306
-  },
-  {
-    "name": "Aggron w/ Heavy Metal",
-    "weight": 720,
-    "pokeApiId": 306
-  },
-  {
-    "name": "Mega Aggron",
-    "weight": 395,
-    "pokeApiId": 10053
-  },
-  {
-    "name": "Alakazam",
-    "weight": 48,
-    "pokeApiId": 65
-  },
-  {
-    "name": "Mega Alakazam",
-    "weight": 48,
-    "pokeApiId": 10037
-  },
-  {
-    "name": "Alcremie",
-    "weight": 0.5,
-    "pokeApiId": 869
-  },
-  {
-    "name": "Altaria",
-    "weight": 20.6,
-    "pokeApiId": 334
-  },
-  {
-    "name": "Mega Altaria",
-    "weight": 20.6,
-    "pokeApiId": 10067
-  },
-  {
-    "name": "Ampharos",
-    "weight": 61.5,
-    "pokeApiId": 181
-  },
-  {
-    "name": "Mega Ampharos",
-    "weight": 61.5,
-    "pokeApiId": 10045
-  },
-  {
-    "name": "Appletun",
-    "weight": 13,
-    "pokeApiId": 842
-  },
-  {
-    "name": "Araquanid",
-    "weight": 82,
-    "pokeApiId": 752
-  },
-  {
-    "name": "Arbok",
-    "weight": 65,
-    "pokeApiId": 24
-  },
-  {
-    "name": "Arcanine",
-    "weight": 155,
-    "pokeApiId": 59
-  },
-  {
-    "name": "Hisuian Arcanine",
-    "weight": 168,
-    "pokeApiId": 10230
-  },
-  {
-    "name": "Archaludon",
-    "weight": 60,
-    "pokeApiId": 1018
-  },
-  {
-    "name": "Ariados",
-    "weight": 33.5,
-    "pokeApiId": 168
-  },
-  {
-    "name": "Armarouge",
-    "weight": 85,
-    "pokeApiId": 936
-  },
-  {
-    "name": "Aromatisse",
-    "weight": 15.5,
-    "pokeApiId": 683
-  },
-  {
-    "name": "Audino",
-    "weight": 31,
-    "pokeApiId": 531
-  },
-  {
-    "name": "Mega Audino",
-    "weight": 32,
-    "pokeApiId": 10069
-  },
-  {
-    "name": "Aurorus",
-    "weight": 225,
-    "pokeApiId": 699
-  },
-  {
-    "name": "Avalugg",
-    "weight": 505,
-    "pokeApiId": 713
-  },
-  {
-    "name": "Hisuian Avalugg",
-    "weight": 262.4,
-    "pokeApiId": 10243
-  },
-  {
-    "name": "Azumarill",
-    "weight": 28.5,
-    "pokeApiId": 184
-  },
-  {
-    "name": "Banette",
-    "weight": 12.5,
-    "pokeApiId": 354
-  },
-  {
-    "name": "Mega Banette",
-    "weight": 13,
-    "pokeApiId": 10056
-  },
-  {
-    "name": "Basculegion ♂",
-    "weight": 110,
-    "pokeApiId": 902
-  },
-  {
-    "name": "Basculegion ♀",
-    "weight": 110,
-    "pokeApiId": 10248
-  },
-  {
-    "name": "Bastiodon",
-    "weight": 149.5,
-    "pokeApiId": 411
-  },
-  {
-    "name": "Beartic",
-    "weight": 260,
-    "pokeApiId": 614
-  },
-  {
-    "name": "Beedrill",
-    "weight": 29.5,
-    "pokeApiId": 15
-  },
-  {
-    "name": "Mega Beedrill",
-    "weight": 405,
-    "pokeApiId": 10090
-  },
-  {
-    "name": "Bellibolt",
-    "weight": 113,
-    "pokeApiId": 939
-  },
-  {
-    "name": "Blastoise",
-    "weight": 113,
-    "pokeApiId": 9
-  },
-  {
-    "name": "Mega Blastoise",
-    "weight": 101.1,
-    "pokeApiId": 10036
-  },
-  {
-    "name": "Camerupt",
-    "weight": 220,
-    "pokeApiId": 323
-  },
-  {
-    "name": "Mega Camerupt",
-    "weight": 320.5,
-    "pokeApiId": 10087
-  },
-  {
-    "name": "Castform",
-    "weight": 0.8,
-    "pokeApiId": 351
-  },
-  {
-    "name": "Ceruledge",
-    "weight": 62,
-    "pokeApiId": 937
-  },
-  {
-    "name": "Chandelure",
-    "weight": 34.3,
-    "pokeApiId": 609
-  },
-  {
-    "name": "Mega Chandelure",
-    "weight": 69.6,
-    "pokeApiId": 10291
-  },
-  {
-    "name": "Charizard",
-    "weight": 90.5,
-    "pokeApiId": 6
-  },
-  {
-    "name": "Mega Charizard X",
-    "weight": 110.5,
-    "pokeApiId": 10034
-  },
-  {
-    "name": "Mega Charizard Y",
-    "weight": 100.5,
-    "pokeApiId": 10035
-  },
-  {
-    "name": "Chesnaught",
-    "weight": 90,
-    "pokeApiId": 652
-  },
-  {
-    "name": "Mega Chesnaught",
-    "weight": 90,
-    "pokeApiId": 10292
-  },
-  {
-    "name": "Chimecho",
-    "weight": 1,
-    "pokeApiId": 358
-  },
-  {
-    "name": "Mega Chimecho",
-    "weight": 8,
-    "pokeApiId": 10306
-  },
-  {
-    "name": "Clawitzer",
-    "weight": 35.3,
-    "pokeApiId": 693
-  },
-  {
-    "name": "Clefable",
-    "weight": 40,
-    "pokeApiId": 36
-  },
-  {
-    "name": "Mega Clefable",
-    "weight": 42.3,
-    "pokeApiId": 10278
-  },
-  {
-    "name": "Cofagrigus",
-    "weight": 76.5,
-    "pokeApiId": 563
-  },
-  {
-    "name": "Conkeldurr",
-    "weight": 87,
-    "pokeApiId": 534
-  },
-  {
-    "name": "Corviknight",
-    "weight": 75,
-    "pokeApiId": 823
-  },
-  {
-    "name": "Crabominable",
-    "weight": 180,
-    "pokeApiId": 740
-  },
-  {
-    "name": "Mega Crabominable",
-    "weight": 252.8,
-    "pokeApiId": 10315
-  },
-  {
-    "name": "Decidueye",
-    "weight": 36.6,
-    "pokeApiId": 724
-  },
-  {
-    "name": "Hisuian Decidueye",
-    "weight": 37,
-    "pokeApiId": 10244
-  },
-  {
-    "name": "Dedenne",
-    "weight": 2.2,
-    "pokeApiId": 702
-  },
-  {
-    "name": "Delphox",
-    "weight": 39,
-    "pokeApiId": 655
-  },
-  {
-    "name": "Mega Delphox",
-    "weight": 39,
-    "pokeApiId": 10293
-  },
-  {
-    "name": "Diggersby",
-    "weight": 42.4,
-    "pokeApiId": 660
-  },
-  {
-    "name": "Ditto",
-    "weight": 4,
-    "pokeApiId": 132
-  },
-  {
-    "name": "Dragapult",
-    "weight": 50,
-    "pokeApiId": 887
-  },
-  {
-    "name": "Dragonite",
-    "weight": 210,
-    "pokeApiId": 149
-  },
-  {
-    "name": "Mega Dragonite",
-    "weight": 290,
-    "pokeApiId": 10281
-  },
-  {
-    "name": "Drampa",
-    "weight": 185,
-    "pokeApiId": 780
-  },
-  {
-    "name": "Mega Drampa",
-    "weight": 240.5,
-    "pokeApiId": 10302
-  },
-  {
-    "name": "Emboar",
-    "weight": 150,
-    "pokeApiId": 500
-  },
-  {
-    "name": "Mega Emboar",
-    "weight": 180.3,
-    "pokeApiId": 10286
-  },
-  {
-    "name": "Emolga",
-    "weight": 5,
-    "pokeApiId": 587
-  },
-  {
-    "name": "Empoleon",
-    "weight": 84.5,
-    "pokeApiId": 395
-  },
-  {
-    "name": "Espathra",
-    "weight": 90,
-    "pokeApiId": 956
-  },
-  {
-    "name": "Espeon",
-    "weight": 26.5,
-    "pokeApiId": 196
-  },
-  {
-    "name": "Excadrill",
-    "weight": 40.4,
-    "pokeApiId": 530
-  },
-  {
-    "name": "Mega Excadrill",
-    "weight": 60,
-    "pokeApiId": 10287
-  },
-  {
-    "name": "Farigiraf",
-    "weight": 160,
-    "pokeApiId": 981
-  },
-  {
-    "name": "Feraligatr",
-    "weight": 88.8,
-    "pokeApiId": 160
-  },
-  {
-    "name": "Mega Feraligatr",
-    "weight": 108.8,
-    "pokeApiId": 10283
-  },
-  {
-    "name": "Flapple",
-    "weight": 1,
-    "pokeApiId": 841
-  },
-  {
-    "name": "Flareon",
-    "weight": 25,
-    "pokeApiId": 136
-  },
-  {
-    "name": "Floette (Eternal)",
-    "weight": 0.9,
-    "pokeApiId": 10061
-  },
-  {
-    "name": "Mega Floette",
-    "weight": 100.8,
-    "pokeApiId": 10296
-  },
-  {
-    "name": "Florges",
-    "weight": 10,
-    "pokeApiId": 671
-  },
-  {
-    "name": "Forretress",
-    "weight": 125.8,
-    "pokeApiId": 205
-  },
-  {
-    "name": "Froslass",
-    "weight": 26.6,
-    "pokeApiId": 478
-  },
-  {
-    "name": "Mega Froslass",
-    "weight": 29.6,
-    "pokeApiId": 10285
-  },
-  {
-    "name": "Furfrou",
-    "weight": 28,
-    "pokeApiId": 676
-  },
-  {
-    "name": "Gallade",
-    "weight": 52,
-    "pokeApiId": 475
-  },
-  {
-    "name": "Mega Gallade",
-    "weight": 56.4,
-    "pokeApiId": 10068
-  },
-  {
-    "name": "Garbodor",
-    "weight": 107.3,
-    "pokeApiId": 569
-  },
-  {
-    "name": "Garchomp",
-    "weight": 95,
-    "pokeApiId": 445
-  },
-  {
-    "name": "Mega Garchomp",
-    "weight": 95,
-    "pokeApiId": 10058
-  },
-  {
-    "name": "Gardevoir",
-    "weight": 48.4,
-    "pokeApiId": 282
-  },
-  {
-    "name": "Mega Gardevoir",
-    "weight": 48.4,
-    "pokeApiId": 10051
-  },
-  {
-    "name": "Garganacl",
-    "weight": 240,
-    "pokeApiId": 934
-  },
-  {
-    "name": "Gengar",
-    "weight": 40.5,
-    "pokeApiId": 94
-  },
-  {
-    "name": "Mega Gengar",
-    "weight": 40.5,
-    "pokeApiId": 10038
-  },
-  {
-    "name": "Glaceon",
-    "weight": 25.9,
-    "pokeApiId": 471
-  },
-  {
-    "name": "Glalie",
-    "weight": 256.5,
-    "pokeApiId": 362
-  },
-  {
-    "name": "Mega Glalie",
-    "weight": 350.2,
-    "pokeApiId": 10074
-  },
-  {
-    "name": "Glimmora",
-    "weight": 45,
-    "pokeApiId": 970
-  },
-  {
-    "name": "Mega Glimmora",
-    "weight": 77,
-    "pokeApiId": 10321
-  },
-  {
-    "name": "Gliscor",
-    "weight": 42.5,
-    "pokeApiId": 472
-  },
-  {
-    "name": "Golurk",
-    "weight": 330,
-    "pokeApiId": 623
-  },
-  {
-    "name": "Mega Golurk",
-    "weight": 330,
-    "pokeApiId": 10313
-  },
-  {
-    "name": "Goodra",
-    "weight": 150.5,
-    "pokeApiId": 706
-  },
-  {
-    "name": "Hisuian Goodra",
-    "weight": 334.1,
-    "pokeApiId": 10242
-  },
-  {
-    "name": "Gourgeist",
-    "weight": 12.5,
-    "pokeApiId": 711
-  },
-  {
-    "name": "Gourgeist (Large)",
-    "weight": 14,
-    "pokeApiId": 10031
-  },
-  {
-    "name": "Gourgeist (Small)",
-    "weight": 9.5,
-    "pokeApiId": 10030
-  },
-  {
-    "name": "Gourgeist (Super)",
-    "weight": 39,
-    "pokeApiId": 10032
-  },
-  {
-    "name": "Greninja",
-    "weight": 40,
-    "pokeApiId": 658
-  },
-  {
-    "name": "Mega Greninja",
-    "weight": 40,
-    "pokeApiId": 10294
-  },
-  {
-    "name": "Gyarados",
-    "weight": 235,
-    "pokeApiId": 130
-  },
-  {
-    "name": "Mega Gyarados",
-    "weight": 305,
-    "pokeApiId": 10041
-  },
-  {
-    "name": "Hatterene",
-    "weight": 5.1,
-    "pokeApiId": 858
-  },
-  {
-    "name": "Hawlucha",
-    "weight": 21.5,
-    "pokeApiId": 701
-  },
-  {
-    "name": "Mega Hawlucha",
-    "weight": 25,
-    "pokeApiId": 10300
-  },
-  {
-    "name": "Heliolisk",
-    "weight": 21,
-    "pokeApiId": 695
-  },
-  {
-    "name": "Heracross",
-    "weight": 54,
-    "pokeApiId": 214
-  },
-  {
-    "name": "Mega Heracross",
-    "weight": 62.5,
-    "pokeApiId": 10047
-  },
-  {
-    "name": "Hippowdon",
-    "weight": 300,
-    "pokeApiId": 450
-  },
-  {
-    "name": "Houndoom",
-    "weight": 35,
-    "pokeApiId": 229
-  },
-  {
-    "name": "Mega Houndoom",
-    "weight": 49.5,
-    "pokeApiId": 10048
-  },
-  {
-    "name": "Hydrapple",
-    "weight": 93,
-    "pokeApiId": 1019
-  },
-  {
-    "name": "Hydreigon",
-    "weight": 160,
-    "pokeApiId": 635
-  },
-  {
-    "name": "Incineroar",
-    "weight": 83,
-    "pokeApiId": 727
-  },
-  {
-    "name": "Infernape",
-    "weight": 55,
-    "pokeApiId": 392
-  },
-  {
-    "name": "Jolteon",
-    "weight": 24.5,
-    "pokeApiId": 135
-  },
-  {
-    "name": "Kangaskhan",
-    "weight": 80,
-    "pokeApiId": 115
-  },
-  {
-    "name": "Mega Kangaskhan",
-    "weight": 100,
-    "pokeApiId": 10039
-  },
-  {
-    "name": "Kingambit",
-    "weight": 120,
-    "pokeApiId": 983
-  },
-  {
-    "name": "Kleavor",
-    "weight": 89,
-    "pokeApiId": 900
-  },
-  {
-    "name": "Klefki",
-    "weight": 3,
-    "pokeApiId": 707
-  },
-  {
-    "name": "Kommo-o",
-    "weight": 78.2,
-    "pokeApiId": 784
-  },
-  {
-    "name": "Krookodile",
-    "weight": 96.3,
-    "pokeApiId": 553
-  },
-  {
-    "name": "Leafeon",
-    "weight": 25.5,
-    "pokeApiId": 470
-  },
-  {
-    "name": "Liepard",
-    "weight": 37.5,
-    "pokeApiId": 510
-  },
-  {
-    "name": "Lopunny",
-    "weight": 33.3,
-    "pokeApiId": 428
-  },
-  {
-    "name": "Mega Lopunny",
-    "weight": 28.3,
-    "pokeApiId": 10088
-  },
-  {
-    "name": "Lucario",
-    "weight": 54,
-    "pokeApiId": 448
-  },
-  {
-    "name": "Mega Lucario",
-    "weight": 57.5,
-    "pokeApiId": 10059
-  },
-  {
-    "name": "Luxray",
-    "weight": 42,
-    "pokeApiId": 405
-  },
-  {
-    "name": "Lycanroc (Midday)",
-    "weight": 25,
-    "pokeApiId": 745
-  },
-  {
-    "name": "Lycanroc (Dusk)",
-    "weight": 25,
-    "pokeApiId": 10126
-  },
-  {
-    "name": "Lycanroc (Midnight)",
-    "weight": 25,
-    "pokeApiId": 10152
-  },
-  {
-    "name": "Machamp",
-    "weight": 130,
-    "pokeApiId": 68
-  },
-  {
-    "name": "Mamoswine",
-    "weight": 291,
-    "pokeApiId": 473
-  },
-  {
-    "name": "Manectric",
-    "weight": 40.2,
-    "pokeApiId": 310
-  },
-  {
-    "name": "Mega Manectric",
-    "weight": 44,
-    "pokeApiId": 10055
-  },
-  {
-    "name": "Maushold (Family of Four)",
-    "weight": 2.8,
-    "pokeApiId": 925
-  },
-  {
-    "name": "Maushold (Family of Three)",
-    "weight": 2.3,
-    "pokeApiId": 10257
-  },
-  {
-    "name": "Medicham",
-    "weight": 31.5,
-    "pokeApiId": 308
-  },
-  {
-    "name": "Mega Medicham",
-    "weight": 31.5,
-    "pokeApiId": 10054
-  },
-  {
-    "name": "Meganium",
-    "weight": 100.5,
-    "pokeApiId": 154
-  },
-  {
-    "name": "Mega Meganium",
-    "weight": 201,
-    "pokeApiId": 10282
-  },
-  {
-    "name": "Meowscarada",
-    "weight": 31.2,
-    "pokeApiId": 908
-  },
-  {
-    "name": "Meowstic",
-    "weight": 8.5,
-    "pokeApiId": 678
-  },
-  {
-    "name": "Mega Meowstic",
-    "weight": 10.1,
-    "pokeApiId": 10314
-  },
-  {
-    "name": "Milotic",
-    "weight": 162,
-    "pokeApiId": 350
-  },
-  {
-    "name": "Mimikyu",
-    "weight": 0.7,
-    "pokeApiId": 778
-  },
-  {
-    "name": "Morpeko",
-    "weight": 3,
-    "pokeApiId": 877
-  },
-  {
-    "name": "Mr. Rime",
-    "weight": 58.2,
-    "pokeApiId": 866
-  },
-  {
-    "name": "Mudsdale",
-    "weight": 920,
-    "pokeApiId": 750
-  },
-  {
-    "name": "Ninetales",
-    "weight": 19.9,
-    "pokeApiId": 38
-  },
-  {
-    "name": "Alolan Ninetales",
-    "weight": 19.9,
-    "pokeApiId": 10104
-  },
-  {
-    "name": "Noivern",
-    "weight": 85,
-    "pokeApiId": 715
-  },
-  {
-    "name": "Oranguru",
-    "weight": 76,
-    "pokeApiId": 765
-  },
-  {
-    "name": "Orthworm",
-    "weight": 310,
-    "pokeApiId": 968
-  },
-  {
-    "name": "Palafin (Zero)",
-    "weight": 60.2,
-    "pokeApiId": 964
-  },
-  {
-    "name": "Palafin (Hero)",
-    "weight": 97.4,
-    "pokeApiId": 10256
-  },
-  {
-    "name": "Pangoro",
-    "weight": 136,
-    "pokeApiId": 675
-  },
-  {
-    "name": "Passimian",
-    "weight": 82.8,
-    "pokeApiId": 766
-  },
-  {
-    "name": "Pelipper",
-    "weight": 28,
-    "pokeApiId": 279
-  },
-  {
-    "name": "Pidgeot",
-    "weight": 39.5,
-    "pokeApiId": 18
-  },
-  {
-    "name": "Mega Pidgeot",
-    "weight": 50.5,
-    "pokeApiId": 10073
-  },
-  {
-    "name": "Pinsir",
-    "weight": 55,
-    "pokeApiId": 127
-  },
-  {
-    "name": "Mega Pinsir",
-    "weight": 59,
-    "pokeApiId": 10040
-  },
-  {
-    "name": "Politoed",
-    "weight": 33.9,
-    "pokeApiId": 186
-  },
-  {
-    "name": "Polteageist",
-    "weight": 0.4,
-    "pokeApiId": 855
-  },
-  {
-    "name": "Primarina",
-    "weight": 44,
-    "pokeApiId": 730
-  },
-  {
-    "name": "Quaquaval",
-    "weight": 61.9,
-    "pokeApiId": 914
-  },
-  {
-    "name": "Raichu",
-    "weight": 30,
-    "pokeApiId": 26
-  },
-  {
-    "name": "Alolan Raichu",
-    "weight": 21,
-    "pokeApiId": 10100
-  },
-  {
-    "name": "Rampardos",
-    "weight": 102.5,
-    "pokeApiId": 409
-  },
-  {
-    "name": "Reuniclus",
-    "weight": 20.1,
-    "pokeApiId": 579
-  },
-  {
-    "name": "Rhyperior",
-    "weight": 282.8,
-    "pokeApiId": 464
-  },
-  {
-    "name": "Roserade",
-    "weight": 14.5,
-    "pokeApiId": 407
-  },
-  {
-    "name": "Rotom",
-    "weight": 0.3,
-    "pokeApiId": 479
-  },
-  {
-    "name": "Rotom Fan",
-    "weight": 0.3,
-    "pokeApiId": 10011
-  },
-  {
-    "name": "Rotom Frost",
-    "weight": 0.3,
-    "pokeApiId": 10010
-  },
-  {
-    "name": "Rotom Heat",
-    "weight": 0.3,
-    "pokeApiId": 10008
-  },
-  {
-    "name": "Rotom Mow",
-    "weight": 0.3,
-    "pokeApiId": 10012
-  },
-  {
-    "name": "Rotom Wash",
-    "weight": 0.3,
-    "pokeApiId": 10009
-  },
-  {
-    "name": "Runerigus",
-    "weight": 66.6,
-    "pokeApiId": 867
-  },
-  {
-    "name": "Sableye",
-    "weight": 11,
-    "pokeApiId": 302
-  },
-  {
-    "name": "Mega Sableye",
-    "weight": 161,
-    "pokeApiId": 10066
-  },
-  {
-    "name": "Salazzle",
-    "weight": 22.2,
-    "pokeApiId": 758
-  },
-  {
-    "name": "Samurott",
-    "weight": 94.6,
-    "pokeApiId": 503
-  },
-  {
-    "name": "Hisuian Samurott",
-    "weight": 58.2,
-    "pokeApiId": 10236
-  },
-  {
-    "name": "Sandaconda",
-    "weight": 65.5,
-    "pokeApiId": 844
-  },
-  {
-    "name": "Scizor",
-    "weight": 118,
-    "pokeApiId": 212
-  },
-  {
-    "name": "Scizor w/ Light Metal",
-    "weight": 59,
-    "pokeApiId": 212
-  },
-  {
-    "name": "Mega Scizor",
-    "weight": 125,
-    "pokeApiId": 10046
-  },
-  {
-    "name": "Scovillain",
-    "weight": 15,
-    "pokeApiId": 952
-  },
-  {
-    "name": "Mega Scovillain",
-    "weight": 22,
-    "pokeApiId": 10320
-  },
-  {
-    "name": "Serperior",
-    "weight": 63,
-    "pokeApiId": 497
-  },
-  {
-    "name": "Sharpedo",
-    "weight": 88.8,
-    "pokeApiId": 319
-  },
-  {
-    "name": "Mega Sharpedo",
-    "weight": 130.3,
-    "pokeApiId": 10070
-  },
-  {
-    "name": "Simipour",
-    "weight": 29,
-    "pokeApiId": 516
-  },
-  {
-    "name": "Simisage",
-    "weight": 30.5,
-    "pokeApiId": 512
-  },
-  {
-    "name": "Simisear",
-    "weight": 28,
-    "pokeApiId": 514
-  },
-  {
-    "name": "Sinistcha",
-    "weight": 2.2,
-    "pokeApiId": 1013
-  },
-  {
-    "name": "Skarmory",
-    "weight": 50.5,
-    "pokeApiId": 227
-  },
-  {
-    "name": "Mega Skarmory",
-    "weight": 40.4,
-    "pokeApiId": 10284
-  },
-  {
-    "name": "Skeledirge",
-    "weight": 326.5,
-    "pokeApiId": 911
-  },
-  {
-    "name": "Slowbro",
-    "weight": 78.5,
-    "pokeApiId": 80
-  },
-  {
-    "name": "Galarian Slowbro",
-    "weight": 70.5,
-    "pokeApiId": 10165
-  },
-  {
-    "name": "Mega Slowbro",
-    "weight": 120,
-    "pokeApiId": 10071
-  },
-  {
-    "name": "Slowking",
-    "weight": 79.5,
-    "pokeApiId": 199
-  },
-  {
-    "name": "Galarian Slowking",
-    "weight": 79.5,
-    "pokeApiId": 10172
-  },
-  {
-    "name": "Slurpuff",
-    "weight": 5,
-    "pokeApiId": 685
-  },
-  {
-    "name": "Sneasler",
-    "weight": 43,
-    "pokeApiId": 903
-  },
-  {
-    "name": "Snorlax",
-    "weight": 460,
-    "pokeApiId": 143
-  },
-  {
-    "name": "Spiritomb",
-    "weight": 108,
-    "pokeApiId": 442
-  },
-  {
-    "name": "Starmie",
-    "weight": 80,
-    "pokeApiId": 121
-  },
-  {
-    "name": "Mega Starmie",
-    "weight": 80,
-    "pokeApiId": 10280
-  },
-  {
-    "name": "Steelix",
-    "weight": 400,
-    "pokeApiId": 208
-  },
-  {
-    "name": "Mega Steelix",
-    "weight": 740,
-    "pokeApiId": 10072
-  },
-  {
-    "name": "Stunfisk",
-    "weight": 11,
-    "pokeApiId": 618
-  },
-  {
-    "name": "Galarian Stunfisk",
-    "weight": 20.5,
-    "pokeApiId": 10180
-  },
-  {
-    "name": "Sylveon",
-    "weight": 23.5,
-    "pokeApiId": 700
-  },
-  {
-    "name": "Talonflame",
-    "weight": 24.5,
-    "pokeApiId": 663
-  },
-  {
-    "name": "Tauros",
-    "weight": 88.4,
-    "pokeApiId": 128
-  },
-  {
-    "name": "Paldean Tauros (Aqua Breed)",
-    "weight": 110,
-    "pokeApiId": 10252
-  },
-  {
-    "name": "Paldean Tauros (Blaze Breed)",
-    "weight": 85,
-    "pokeApiId": 10251
-  },
-  {
-    "name": "Paldean Tauros (Combat Breed)",
-    "weight": 115,
-    "pokeApiId": 10250
-  },
-  {
-    "name": "Tinkaton",
-    "weight": 112.8,
-    "pokeApiId": 959
-  },
-  {
-    "name": "Torkoal",
-    "weight": 80.4,
-    "pokeApiId": 324
-  },
-  {
-    "name": "Torterra",
-    "weight": 310,
-    "pokeApiId": 389
-  },
-  {
-    "name": "Toucannon",
-    "weight": 26,
-    "pokeApiId": 733
-  },
-  {
-    "name": "Toxapex",
-    "weight": 14.5,
-    "pokeApiId": 748
-  },
-  {
-    "name": "Toxicroak",
-    "weight": 44.4,
-    "pokeApiId": 454
-  },
-  {
-    "name": "Trevenant",
-    "weight": 71,
-    "pokeApiId": 709
-  },
-  {
-    "name": "Tsareena",
-    "weight": 21.4,
-    "pokeApiId": 763
-  },
-  {
-    "name": "Typhlosion",
-    "weight": 79.5,
-    "pokeApiId": 157
-  },
-  {
-    "name": "Hisuian Typhlosion",
-    "weight": 698,
-    "pokeApiId": 10233
-  },
-  {
-    "name": "Tyranitar",
-    "weight": 202,
-    "pokeApiId": 248
-  },
-  {
-    "name": "Mega Tyranitar",
-    "weight": 255,
-    "pokeApiId": 10049
-  },
-  {
-    "name": "Tyrantrum",
-    "weight": 270,
-    "pokeApiId": 697
-  },
-  {
-    "name": "Umbreon",
-    "weight": 27,
-    "pokeApiId": 197
-  },
-  {
-    "name": "Vanilluxe",
-    "weight": 57.5,
-    "pokeApiId": 584
-  },
-  {
-    "name": "Vaporeon",
-    "weight": 29,
-    "pokeApiId": 134
-  },
-  {
-    "name": "Venusaur",
-    "weight": 100,
-    "pokeApiId": 3
-  },
-  {
-    "name": "Mega Venusaur",
-    "weight": 155.5,
-    "pokeApiId": 10033
-  },
-  {
-    "name": "Victreebel",
-    "weight": 15.5,
-    "pokeApiId": 71
-  },
-  {
-    "name": "Mega Victreebel",
-    "weight": 125.5,
-    "pokeApiId": 10279
-  },
-  {
-    "name": "Vivillon",
-    "weight": 17,
-    "pokeApiId": 666
-  },
-  {
-    "name": "Volcarona",
-    "weight": 46,
-    "pokeApiId": 637
-  },
-  {
-    "name": "Watchog",
-    "weight": 27,
-    "pokeApiId": 505
-  },
-  {
-    "name": "Weavile",
-    "weight": 34,
-    "pokeApiId": 461
-  },
-  {
-    "name": "Whimsicott",
-    "weight": 6.6,
-    "pokeApiId": 547
-  },
-  {
-    "name": "Wyrdeer",
-    "weight": 95.1,
-    "pokeApiId": 899
-  },
-  {
-    "name": "Zoroark",
-    "weight": 81.1,
-    "pokeApiId": 571
-  },
-  {
-    "name": "Hisuian Zoroark",
-    "weight": 73,
-    "pokeApiId": 10239
-  }
+ {
+   "name": "Abomasnow",
+   "weight": 135.5,
+   "pokeApiId": 460
+ },
+ {
+   "name": "Mega Abomasnow",
+   "weight": 185,
+   "pokeApiId": 10060
+ },
+ {
+   "name": "Absol",
+   "weight": 47,
+   "pokeApiId": 359
+ },
+ {
+   "name": "Mega Absol",
+   "weight": 49,
+   "pokeApiId": 10057
+ },
+ {
+   "name": "Aegislash",
+   "weight": 53,
+   "pokeApiId": 681
+ },
+ {
+   "name": "Aerodactyl",
+   "weight": 59,
+   "pokeApiId": 142
+ },
+ {
+   "name": "Mega Aerodactyl",
+   "weight": 79,
+   "pokeApiId": 10042
+ },
+ {
+   "name": "Aggron",
+   "weight": 360,
+   "slam": true,
+   "pokeApiId": 306
+ },
+ {
+   "name": "Aggron w/ Heavy Metal",
+   "weight": 720,
+   "slam": true,
+   "pokeApiId": 306
+ },
+ {
+   "name": "Mega Aggron",
+   "weight": 395,
+   "pokeApiId": 10053
+ },
+ {
+   "name": "Alakazam",
+   "weight": 48,
+   "pokeApiId": 65
+ },
+ {
+   "name": "Mega Alakazam",
+   "weight": 48,
+   "pokeApiId": 10037
+ },
+ {
+   "name": "Alcremie",
+   "weight": 0.5,
+   "pokeApiId": 869
+ },
+ {
+   "name": "Altaria",
+   "weight": 20.6,
+   "pokeApiId": 334
+ },
+ {
+   "name": "Mega Altaria",
+   "weight": 20.6,
+   "pokeApiId": 10067
+ },
+ {
+   "name": "Ampharos",
+   "weight": 61.5,
+   "pokeApiId": 181
+ },
+ {
+   "name": "Mega Ampharos",
+   "weight": 61.5,
+   "pokeApiId": 10045
+ },
+ {
+   "name": "Annihilape",
+   "weight": 56,
+   "pokeApiId": 979
+ },
+ {
+   "name": "Appletun",
+   "weight": 13,
+   "slam": true,
+   "pokeApiId": 842
+ },
+ {
+   "name": "Araquanid",
+   "weight": 82,
+   "pokeApiId": 752
+ },
+ {
+   "name": "Arbok",
+   "weight": 65,
+   "pokeApiId": 24
+ },
+ {
+   "name": "Arcanine",
+   "weight": 155,
+   "crash": true,
+   "pokeApiId": 59
+ },
+ {
+   "name": "Hisuian Arcanine",
+   "weight": 168,
+   "crash": true,
+   "pokeApiId": 10230
+ },
+ {
+   "name": "Archaludon",
+   "weight": 60,
+   "slam": true,
+   "pokeApiId": 1018
+ },
+ {
+   "name": "Ariados",
+   "weight": 33.5,
+   "pokeApiId": 168
+ },
+ {
+   "name": "Armarouge",
+   "weight": 85,
+   "pokeApiId": 936
+ },
+ {
+   "name": "Aromatisse",
+   "weight": 15.5,
+   "pokeApiId": 683
+ },
+ {
+   "name": "Audino",
+   "weight": 31,
+   "pokeApiId": 531
+ },
+ {
+   "name": "Mega Audino",
+   "weight": 32,
+   "pokeApiId": 10069
+ },
+ {
+   "name": "Aurorus",
+   "weight": 225,
+   "pokeApiId": 699
+ },
+ {
+   "name": "Avalugg",
+   "weight": 505,
+   "slam": true,
+   "pokeApiId": 713
+ },
+ {
+   "name": "Hisuian Avalugg",
+   "weight": 262.4,
+   "slam": true,
+   "pokeApiId": 10243
+ },
+ {
+   "name": "Azumarill",
+   "weight": 28.5,
+   "pokeApiId": 184
+ },
+ {
+   "name": "Banette",
+   "weight": 12.5,
+   "pokeApiId": 354
+ },
+ {
+   "name": "Mega Banette",
+   "weight": 13,
+   "pokeApiId": 10056
+ },
+ {
+   "name": "Barbaracle",
+   "weight": 96,
+   "pokeApiId": 689
+ },
+ {
+   "name": "Mega Barbaracle",
+   "weight": 100,
+   "pokeApiId": 10298
+ },
+ {
+   "name": "Basculegion ♂",
+   "weight": 110,
+   "pokeApiId": 902
+ },
+ {
+   "name": "Basculegion ♀",
+   "weight": 110,
+   "pokeApiId": 10248
+ },
+ {
+   "name": "Bastiodon",
+   "weight": 149.5,
+   "slam": true,
+   "pokeApiId": 411
+ },
+ {
+   "name": "Beartic",
+   "weight": 260,
+   "slam": true,
+   "pokeApiId": 614
+ },
+ {
+   "name": "Beedrill",
+   "weight": 29.5,
+   "pokeApiId": 15
+ },
+ {
+   "name": "Mega Beedrill",
+   "weight": 405,
+   "pokeApiId": 10090
+ },
+ {
+   "name": "Bellibolt",
+   "weight": 113,
+   "pokeApiId": 939
+ },
+ {
+   "name": "Blastoise",
+   "weight": 113,
+   "pokeApiId": 9
+ },
+ {
+   "name": "Mega Blastoise",
+   "weight": 101.1,
+   "pokeApiId": 10036
+ },
+ {
+   "name": "Blaziken",
+   "weight": 52,
+   "crash": true,
+   "pokeApiId": 257
+ },
+ {
+   "name": "Mega Blaziken",
+   "weight": 52,
+   "crash": true,
+   "pokeApiId": 10050
+ },
+ {
+   "name": "Camerupt",
+   "weight": 220,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 323
+ },
+ {
+   "name": "Mega Camerupt",
+   "weight": 320.5,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 10087
+ },
+ {
+   "name": "Castform",
+   "weight": 0.8,
+   "pokeApiId": 351
+ },
+ {
+   "name": "Ceruledge",
+   "weight": 62,
+   "pokeApiId": 937
+ },
+ {
+   "name": "Chandelure",
+   "weight": 34.3,
+   "pokeApiId": 609
+ },
+ {
+   "name": "Mega Chandelure",
+   "weight": 69.6,
+   "pokeApiId": 10291
+ },
+ {
+   "name": "Charizard",
+   "weight": 90.5,
+   "crash": true,
+   "pokeApiId": 6
+ },
+ {
+   "name": "Mega Charizard X",
+   "weight": 110.5,
+   "crash": true,
+   "pokeApiId": 10034
+ },
+ {
+   "name": "Mega Charizard Y",
+   "weight": 100.5,
+   "crash": true,
+   "pokeApiId": 10035
+ },
+ {
+   "name": "Chesnaught",
+   "weight": 90,
+   "pokeApiId": 652
+ },
+ {
+   "name": "Mega Chesnaught",
+   "weight": 90,
+   "pokeApiId": 10292
+ },
+ {
+   "name": "Chimecho",
+   "weight": 1,
+   "pokeApiId": 358
+ },
+ {
+   "name": "Mega Chimecho",
+   "weight": 8,
+   "pokeApiId": 10306
+ },
+ {
+   "name": "Clawitzer",
+   "weight": 35.3,
+   "pokeApiId": 693
+ },
+ {
+   "name": "Clefable",
+   "weight": 40,
+   "pokeApiId": 36
+ },
+ {
+   "name": "Mega Clefable",
+   "weight": 42.3,
+   "pokeApiId": 10278
+ },
+ {
+   "name": "Cofagrigus",
+   "weight": 76.5,
+   "pokeApiId": 563
+ },
+ {
+   "name": "Conkeldurr",
+   "weight": 87,
+   "pokeApiId": 534
+ },
+ {
+   "name": "Corviknight",
+   "weight": 75,
+   "slam": true,
+   "pokeApiId": 823
+ },
+ {
+   "name": "Crabominable",
+   "weight": 180,
+   "pokeApiId": 740
+ },
+ {
+   "name": "Mega Crabominable",
+   "weight": 252.8,
+   "pokeApiId": 10315
+ },
+ {
+   "name": "Decidueye",
+   "weight": 36.6,
+   "pokeApiId": 724
+ },
+ {
+   "name": "Hisuian Decidueye",
+   "weight": 37,
+   "pokeApiId": 10244
+ },
+ {
+   "name": "Dedenne",
+   "weight": 2.2,
+   "pokeApiId": 702
+ },
+ {
+   "name": "Delphox",
+   "weight": 39,
+   "pokeApiId": 655
+ },
+ {
+   "name": "Mega Delphox",
+   "weight": 39,
+   "pokeApiId": 10293
+ },
+ {
+   "name": "Diggersby",
+   "weight": 42.4,
+   "pokeApiId": 660
+ },
+ {
+   "name": "Ditto",
+   "weight": 4,
+   "pokeApiId": 132
+ },
+ {
+   "name": "Dragalge",
+   "weight": 81.5,
+   "pokeApiId": 691
+ },
+ {
+   "name": "Mega Dragalge",
+   "weight": 100.3,
+   "pokeApiId": 10299
+ },
+ {
+   "name": "Dragapult",
+   "weight": 50,
+   "pokeApiId": 887
+ },
+ {
+   "name": "Dragonite",
+   "weight": 210,
+   "pokeApiId": 149
+ },
+ {
+   "name": "Mega Dragonite",
+   "weight": 290,
+   "pokeApiId": 10281
+ },
+ {
+   "name": "Drampa",
+   "weight": 185,
+   "pokeApiId": 780
+ },
+ {
+   "name": "Mega Drampa",
+   "weight": 240.5,
+   "pokeApiId": 10302
+ },
+ {
+   "name": "Eelektross",
+   "weight": 80.5,
+   "slam": true,
+   "pokeApiId": 604
+ },
+ {
+   "name": "Mega Eelektross",
+   "weight": 180,
+   "slam": true,
+   "pokeApiId": 10290
+ },
+ {
+   "name": "Emboar",
+   "weight": 150,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 500
+ },
+ {
+   "name": "Mega Emboar",
+   "weight": 180.3,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 10286
+ },
+ {
+   "name": "Emolga",
+   "weight": 5,
+   "pokeApiId": 587
+ },
+ {
+   "name": "Empoleon",
+   "weight": 84.5,
+   "pokeApiId": 395
+ },
+ {
+   "name": "Espathra",
+   "weight": 90,
+   "pokeApiId": 956
+ },
+ {
+   "name": "Espeon",
+   "weight": 26.5,
+   "pokeApiId": 196
+ },
+ {
+   "name": "Excadrill",
+   "weight": 40.4,
+   "pokeApiId": 530
+ },
+ {
+   "name": "Mega Excadrill",
+   "weight": 60,
+   "pokeApiId": 10287
+ },
+ {
+   "name": "Falinks",
+   "weight": 62,
+   "pokeApiId": 870
+ },
+ {
+   "name": "Mega Falinks",
+   "weight": 99,
+   "pokeApiId": 10303
+ },
+ {
+   "name": "Farigiraf",
+   "weight": 160,
+   "pokeApiId": 981
+ },
+ {
+   "name": "Feraligatr",
+   "weight": 88.8,
+   "pokeApiId": 160
+ },
+ {
+   "name": "Mega Feraligatr",
+   "weight": 108.8,
+   "pokeApiId": 10283
+ },
+ {
+   "name": "Flapple",
+   "weight": 1,
+   "slam": true,
+   "pokeApiId": 841
+ },
+ {
+   "name": "Flareon",
+   "weight": 25,
+   "pokeApiId": 136
+ },
+ {
+   "name": "Floette (Eternal)",
+   "weight": 0.9,
+   "pokeApiId": 10061
+ },
+ {
+   "name": "Mega Floette",
+   "weight": 100.8,
+   "pokeApiId": 10296
+ },
+ {
+   "name": "Florges",
+   "weight": 10,
+   "pokeApiId": 671
+ },
+ {
+   "name": "Forretress",
+   "weight": 125.8,
+   "slam": true,
+   "pokeApiId": 205
+ },
+ {
+   "name": "Froslass",
+   "weight": 26.6,
+   "pokeApiId": 478
+ },
+ {
+   "name": "Mega Froslass",
+   "weight": 29.6,
+   "pokeApiId": 10285
+ },
+ {
+   "name": "Furfrou",
+   "weight": 28,
+   "pokeApiId": 676
+ },
+ {
+   "name": "Gallade",
+   "weight": 52,
+   "pokeApiId": 475
+ },
+ {
+   "name": "Mega Gallade",
+   "weight": 56.4,
+   "pokeApiId": 10068
+ },
+ {
+   "name": "Garbodor",
+   "weight": 107.3,
+   "pokeApiId": 569
+ },
+ {
+   "name": "Garchomp",
+   "weight": 95,
+   "pokeApiId": 445
+ },
+ {
+   "name": "Mega Garchomp",
+   "weight": 95,
+   "pokeApiId": 10058
+ },
+ {
+   "name": "Gardevoir",
+   "weight": 48.4,
+   "pokeApiId": 282
+ },
+ {
+   "name": "Mega Gardevoir",
+   "weight": 48.4,
+   "pokeApiId": 10051
+ },
+ {
+   "name": "Garganacl",
+   "weight": 240,
+   "slam": true,
+   "pokeApiId": 934
+ },
+ {
+   "name": "Gengar",
+   "weight": 40.5,
+   "pokeApiId": 94
+ },
+ {
+   "name": "Mega Gengar",
+   "weight": 40.5,
+   "pokeApiId": 10038
+ },
+ {
+   "name": "Gholdengo",
+   "weight": 30,
+   "slam": true,
+   "pokeApiId": 1000
+ },
+ {
+   "name": "Glaceon",
+   "weight": 25.9,
+   "pokeApiId": 471
+ },
+ {
+   "name": "Glalie",
+   "weight": 256.5,
+   "pokeApiId": 362
+ },
+ {
+   "name": "Mega Glalie",
+   "weight": 350.2,
+   "pokeApiId": 10074
+ },
+ {
+   "name": "Glimmora",
+   "weight": 45,
+   "pokeApiId": 970
+ },
+ {
+   "name": "Mega Glimmora",
+   "weight": 77,
+   "pokeApiId": 10321
+ },
+ {
+   "name": "Gliscor",
+   "weight": 42.5,
+   "pokeApiId": 472
+ },
+ {
+   "name": "Golurk",
+   "weight": 330,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 623
+ },
+ {
+   "name": "Mega Golurk",
+   "weight": 330,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 10313
+ },
+ {
+   "name": "Goodra",
+   "weight": 150.5,
+   "pokeApiId": 706
+ },
+ {
+   "name": "Hisuian Goodra",
+   "weight": 334.1,
+   "slam": true,
+   "pokeApiId": 10242
+ },
+ {
+   "name": "Gourgeist",
+   "weight": 12.5,
+   "pokeApiId": 711
+ },
+ {
+   "name": "Gourgeist (Large)",
+   "weight": 14,
+   "pokeApiId": 10031
+ },
+ {
+   "name": "Gourgeist (Small)",
+   "weight": 9.5,
+   "pokeApiId": 10030
+ },
+ {
+   "name": "Gourgeist (Super)",
+   "weight": 39,
+   "pokeApiId": 10032
+ },
+ {
+   "name": "Greninja",
+   "weight": 40,
+   "pokeApiId": 658
+ },
+ {
+   "name": "Mega Greninja",
+   "weight": 40,
+   "pokeApiId": 10294
+ },
+ {
+   "name": "Grimmsnarl",
+   "weight": 61,
+   "pokeApiId": 861
+ },
+ {
+   "name": "Gyarados",
+   "weight": 235,
+   "pokeApiId": 130
+ },
+ {
+   "name": "Mega Gyarados",
+   "weight": 305,
+   "pokeApiId": 10041
+ },
+ {
+   "name": "Hatterene",
+   "weight": 5.1,
+   "pokeApiId": 858
+ },
+ {
+   "name": "Hawlucha",
+   "weight": 21.5,
+   "pokeApiId": 701
+ },
+ {
+   "name": "Mega Hawlucha",
+   "weight": 25,
+   "pokeApiId": 10300
+ },
+ {
+   "name": "Heliolisk",
+   "weight": 21,
+   "pokeApiId": 695
+ },
+ {
+   "name": "Heracross",
+   "weight": 54,
+   "pokeApiId": 214
+ },
+ {
+   "name": "Mega Heracross",
+   "weight": 62.5,
+   "pokeApiId": 10047
+ },
+ {
+   "name": "Hippowdon",
+   "weight": 300,
+   "slam": true,
+   "pokeApiId": 450
+ },
+ {
+   "name": "Houndoom",
+   "weight": 35,
+   "pokeApiId": 229
+ },
+ {
+   "name": "Mega Houndoom",
+   "weight": 49.5,
+   "pokeApiId": 10048
+ },
+ {
+   "name": "Houndstone",
+   "weight": 15,
+   "pokeApiId": 972
+ },
+ {
+   "name": "Hydrapple",
+   "weight": 93,
+   "slam": true,
+   "pokeApiId": 1019
+ },
+ {
+   "name": "Hydreigon",
+   "weight": 160,
+   "pokeApiId": 635
+ },
+ {
+   "name": "Incineroar",
+   "weight": 83,
+   "crash": true,
+   "pokeApiId": 727
+ },
+ {
+   "name": "Infernape",
+   "weight": 55,
+   "pokeApiId": 392
+ },
+ {
+   "name": "Jolteon",
+   "weight": 24.5,
+   "pokeApiId": 135
+ },
+ {
+   "name": "Kangaskhan",
+   "weight": 80,
+   "pokeApiId": 115
+ },
+ {
+   "name": "Mega Kangaskhan",
+   "weight": 100,
+   "pokeApiId": 10039
+ },
+ {
+   "name": "Kingambit",
+   "weight": 120,
+   "pokeApiId": 983
+ },
+ {
+   "name": "Kleavor",
+   "weight": 89,
+   "pokeApiId": 900
+ },
+ {
+   "name": "Klefki",
+   "weight": 3,
+   "pokeApiId": 707
+ },
+ {
+   "name": "Kommo-o",
+   "weight": 78.2,
+   "pokeApiId": 784
+ },
+ {
+   "name": "Krookodile",
+   "weight": 96.3,
+   "pokeApiId": 553
+ },
+ {
+   "name": "Leafeon",
+   "weight": 25.5,
+   "pokeApiId": 470
+ },
+ {
+   "name": "Liepard",
+   "weight": 37.5,
+   "pokeApiId": 510
+ },
+ {
+   "name": "Lopunny",
+   "weight": 33.3,
+   "pokeApiId": 428
+ },
+ {
+   "name": "Mega Lopunny",
+   "weight": 28.3,
+   "pokeApiId": 10088
+ },
+ {
+   "name": "Lucario",
+   "weight": 54,
+   "pokeApiId": 448
+ },
+ {
+   "name": "Mega Lucario",
+   "weight": 57.5,
+   "pokeApiId": 10059
+ },
+ {
+   "name": "Luxray",
+   "weight": 42,
+   "pokeApiId": 405
+ },
+ {
+   "name": "Lycanroc (Midday)",
+   "weight": 25,
+   "pokeApiId": 745
+ },
+ {
+   "name": "Lycanroc (Dusk)",
+   "weight": 25,
+   "pokeApiId": 10126
+ },
+ {
+   "name": "Lycanroc (Midnight)",
+   "weight": 25,
+   "pokeApiId": 10152
+ },
+ {
+   "name": "Machamp",
+   "weight": 130,
+   "slam": true,
+   "pokeApiId": 68
+ },
+ {
+   "name": "Malamar",
+   "weight": 47,
+   "pokeApiId": 687
+ },
+ {
+   "name": "Mega Malamar",
+   "weight": 69.8,
+   "pokeApiId": 10297
+ },
+ {
+   "name": "Mamoswine",
+   "weight": 291,
+   "slam": true,
+   "pokeApiId": 473
+ },
+ {
+   "name": "Manectric",
+   "weight": 40.2,
+   "pokeApiId": 310
+ },
+ {
+   "name": "Mega Manectric",
+   "weight": 44,
+   "pokeApiId": 10055
+ },
+ {
+   "name": "Maushold (Family of Four)",
+   "weight": 2.8,
+   "pokeApiId": 925
+ },
+ {
+   "name": "Maushold (Family of Three)",
+   "weight": 2.3,
+   "pokeApiId": 10257
+ },
+ {
+   "name": "Mawile",
+   "weight": 11.5,
+   "pokeApiId": 303
+ },
+ {
+   "name": "Mega Mawile",
+   "weight": 23.5,
+   "pokeApiId": 10052
+ },
+ {
+   "name": "Medicham",
+   "weight": 31.5,
+   "pokeApiId": 308
+ },
+ {
+   "name": "Mega Medicham",
+   "weight": 31.5,
+   "pokeApiId": 10054
+ },
+ {
+   "name": "Meganium",
+   "weight": 100.5,
+   "pokeApiId": 154
+ },
+ {
+   "name": "Mega Meganium",
+   "weight": 201,
+   "pokeApiId": 10282
+ },
+ {
+   "name": "Meowscarada",
+   "weight": 31.2,
+   "pokeApiId": 908
+ },
+ {
+   "name": "Meowstic",
+   "weight": 8.5,
+   "pokeApiId": 678
+ },
+ {
+   "name": "Mega Meowstic",
+   "weight": 10.1,
+   "pokeApiId": 10314
+ },
+ {
+   "name": "Metagross",
+   "weight": 550,
+   "pokeApiId": 376
+ },
+ {
+   "name": "Metagross w/ Light Metal",
+   "weight": 275,
+   "pokeApiId": 376
+ },
+ {
+   "name": "Mega Metagross",
+   "weight": 942.9,
+   "pokeApiId": 10076
+ },
+ {
+   "name": "Milotic",
+   "weight": 162,
+   "pokeApiId": 350
+ },
+ {
+   "name": "Mimikyu",
+   "weight": 0.7,
+   "pokeApiId": 778
+ },
+ {
+   "name": "Morpeko",
+   "weight": 3,
+   "pokeApiId": 877
+ },
+ {
+   "name": "Mr. Rime",
+   "weight": 58.2,
+   "pokeApiId": 866
+ },
+ {
+   "name": "Mudsdale",
+   "weight": 920,
+   "slam": true,
+   "pokeApiId": 750
+ },
+ {
+   "name": "Musharna",
+   "weight": 60.5,
+   "pokeApiId": 518
+ },
+ {
+   "name": "Ninetales",
+   "weight": 19.9,
+   "pokeApiId": 38
+ },
+ {
+   "name": "Alolan Ninetales",
+   "weight": 19.9,
+   "pokeApiId": 10104
+ },
+ {
+   "name": "Noivern",
+   "weight": 85,
+   "pokeApiId": 715
+ },
+ {
+   "name": "Oranguru",
+   "weight": 76,
+   "pokeApiId": 765
+ },
+ {
+   "name": "Orthworm",
+   "weight": 310,
+   "slam": true,
+   "pokeApiId": 968
+ },
+ {
+   "name": "Overqwil",
+   "weight": 60.5,
+   "pokeApiId": 904
+ },
+ {
+   "name": "Palafin (Zero)",
+   "weight": 60.2,
+   "pokeApiId": 964
+ },
+ {
+   "name": "Palafin (Hero)",
+   "weight": 97.4,
+   "pokeApiId": 10256
+ },
+ {
+   "name": "Pangoro",
+   "weight": 136,
+   "pokeApiId": 675
+ },
+ {
+   "name": "Passimian",
+   "weight": 82.8,
+   "pokeApiId": 766
+ },
+ {
+   "name": "Pelipper",
+   "weight": 28,
+   "pokeApiId": 279
+ },
+ {
+   "name": "Pidgeot",
+   "weight": 39.5,
+   "pokeApiId": 18
+ },
+ {
+   "name": "Mega Pidgeot",
+   "weight": 50.5,
+   "pokeApiId": 10073
+ },
+ {
+   "name": "Pinsir",
+   "weight": 55,
+   "pokeApiId": 127
+ },
+ {
+   "name": "Mega Pinsir",
+   "weight": 59,
+   "pokeApiId": 10040
+ },
+ {
+   "name": "Politoed",
+   "weight": 33.9,
+   "pokeApiId": 186
+ },
+ {
+   "name": "Polteageist",
+   "weight": 0.4,
+   "pokeApiId": 855
+ },
+ {
+   "name": "Primarina",
+   "weight": 44,
+   "pokeApiId": 730
+ },
+ {
+   "name": "Pyroar",
+   "weight": 81.5,
+   "pokeApiId": 668
+ },
+ {
+   "name": "Mega Pyroar",
+   "weight": 93.3,
+   "pokeApiId": 10295
+ },
+ {
+   "name": "Quaquaval",
+   "weight": 61.9,
+   "pokeApiId": 914
+ },
+ {
+   "name": "Qwilfish",
+   "weight": 3.9,
+   "pokeApiId": 211
+ },
+ {
+   "name": "Raichu",
+   "weight": 30,
+   "pokeApiId": 26
+ },
+ {
+   "name": "Alolan Raichu",
+   "weight": 21,
+   "pokeApiId": 10100
+ },
+ {
+   "name": "Mega Raichu X",
+   "weight": 38,
+   "pokeApiId": 10304
+ },
+ {
+   "name": "Mega Raichu Y",
+   "weight": 26,
+   "pokeApiId": 10305
+ },
+ {
+   "name": "Rampardos",
+   "weight": 102.5,
+   "slam": true,
+   "pokeApiId": 409
+ },
+ {
+   "name": "Reuniclus",
+   "weight": 20.1,
+   "pokeApiId": 579
+ },
+ {
+   "name": "Rhyperior",
+   "weight": 282.8,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 464
+ },
+ {
+   "name": "Roserade",
+   "weight": 14.5,
+   "pokeApiId": 407
+ },
+ {
+   "name": "Rotom",
+   "weight": 0.3,
+   "pokeApiId": 479
+ },
+ {
+   "name": "Rotom Fan",
+   "weight": 0.3,
+   "pokeApiId": 10011
+ },
+ {
+   "name": "Rotom Frost",
+   "weight": 0.3,
+   "pokeApiId": 10010
+ },
+ {
+   "name": "Rotom Heat",
+   "weight": 0.3,
+   "pokeApiId": 10008
+ },
+ {
+   "name": "Rotom Mow",
+   "weight": 0.3,
+   "pokeApiId": 10012
+ },
+ {
+   "name": "Rotom Wash",
+   "weight": 0.3,
+   "pokeApiId": 10009
+ },
+ {
+   "name": "Runerigus",
+   "weight": 66.6,
+   "pokeApiId": 867
+ },
+ {
+   "name": "Sableye",
+   "weight": 11,
+   "pokeApiId": 302
+ },
+ {
+   "name": "Mega Sableye",
+   "weight": 161,
+   "pokeApiId": 10066
+ },
+ {
+   "name": "Salazzle",
+   "weight": 22.2,
+   "pokeApiId": 758
+ },
+ {
+   "name": "Samurott",
+   "weight": 94.6,
+   "pokeApiId": 503
+ },
+ {
+   "name": "Hisuian Samurott",
+   "weight": 58.2,
+   "pokeApiId": 10236
+ },
+ {
+   "name": "Sandaconda",
+   "weight": 65.5,
+   "pokeApiId": 844
+ },
+ {
+   "name": "Sceptile",
+   "weight": 52.2,
+   "pokeApiId": 254
+ },
+ {
+   "name": "Mega Sceptile",
+   "weight": 55.2,
+   "pokeApiId": 10065
+ },
+ {
+   "name": "Scizor",
+   "weight": 118,
+   "pokeApiId": 212
+ },
+ {
+   "name": "Scizor w/ Light Metal",
+   "weight": 59,
+   "pokeApiId": 212
+ },
+ {
+   "name": "Mega Scizor",
+   "weight": 125,
+   "pokeApiId": 10046
+ },
+ {
+   "name": "Scolipede",
+   "weight": 200.5,
+   "pokeApiId": 545
+ },
+ {
+   "name": "Mega Scolipede",
+   "weight": 230.5,
+   "pokeApiId": 10288
+ },
+ {
+   "name": "Scovillain",
+   "weight": 15,
+   "pokeApiId": 952
+ },
+ {
+   "name": "Mega Scovillain",
+   "weight": 22,
+   "pokeApiId": 10320
+ },
+ {
+   "name": "Scrafty",
+   "weight": 30,
+   "pokeApiId": 560
+ },
+ {
+   "name": "Mega Scrafty",
+   "weight": 31,
+   "pokeApiId": 10289
+ },
+ {
+   "name": "Serperior",
+   "weight": 63,
+   "pokeApiId": 497
+ },
+ {
+   "name": "Sharpedo",
+   "weight": 88.8,
+   "pokeApiId": 319
+ },
+ {
+   "name": "Mega Sharpedo",
+   "weight": 130.3,
+   "pokeApiId": 10070
+ },
+ {
+   "name": "Simipour",
+   "weight": 29,
+   "pokeApiId": 516
+ },
+ {
+   "name": "Simisage",
+   "weight": 30.5,
+   "pokeApiId": 512
+ },
+ {
+   "name": "Simisear",
+   "weight": 28,
+   "pokeApiId": 514
+ },
+ {
+   "name": "Sinistcha",
+   "weight": 2.2,
+   "pokeApiId": 1013
+ },
+ {
+   "name": "Skarmory",
+   "weight": 50.5,
+   "pokeApiId": 227
+ },
+ {
+   "name": "Mega Skarmory",
+   "weight": 40.4,
+   "pokeApiId": 10284
+ },
+ {
+   "name": "Skeledirge",
+   "weight": 326.5,
+   "crash": true,
+   "pokeApiId": 911
+ },
+ {
+   "name": "Slowbro",
+   "weight": 78.5,
+   "pokeApiId": 80
+ },
+ {
+   "name": "Galarian Slowbro",
+   "weight": 70.5,
+   "pokeApiId": 10165
+ },
+ {
+   "name": "Mega Slowbro",
+   "weight": 120,
+   "pokeApiId": 10071
+ },
+ {
+   "name": "Slowking",
+   "weight": 79.5,
+   "pokeApiId": 199
+ },
+ {
+   "name": "Galarian Slowking",
+   "weight": 79.5,
+   "pokeApiId": 10172
+ },
+ {
+   "name": "Slurpuff",
+   "weight": 5,
+   "pokeApiId": 685
+ },
+ {
+   "name": "Sneasler",
+   "weight": 43,
+   "pokeApiId": 903
+ },
+ {
+   "name": "Snorlax",
+   "weight": 460,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 143
+ },
+ {
+   "name": "Spiritomb",
+   "weight": 108,
+   "pokeApiId": 442
+ },
+ {
+   "name": "Staraptor",
+   "weight": 24.9,
+   "pokeApiId": 398
+ },
+ {
+   "name": "Mega Staraptor",
+   "weight": 50,
+   "pokeApiId": 10308
+ },
+ {
+   "name": "Starmie",
+   "weight": 80,
+   "pokeApiId": 121
+ },
+ {
+   "name": "Mega Starmie",
+   "weight": 80,
+   "pokeApiId": 10280
+ },
+ {
+   "name": "Steelix",
+   "weight": 400,
+   "slam": true,
+   "pokeApiId": 208
+ },
+ {
+   "name": "Mega Steelix",
+   "weight": 740,
+   "slam": true,
+   "pokeApiId": 10072
+ },
+ {
+   "name": "Stunfisk",
+   "weight": 11,
+   "pokeApiId": 618
+ },
+ {
+   "name": "Swampert",
+   "weight": 81.9,
+   "pokeApiId": 260
+ },
+ {
+   "name": "Mega Swampert",
+   "weight": 102,
+   "pokeApiId": 10064
+ },
+ {
+   "name": "Galarian Stunfisk",
+   "weight": 20.5,
+   "pokeApiId": 10180
+ },
+ {
+   "name": "Sylveon",
+   "weight": 23.5,
+   "pokeApiId": 700
+ },
+ {
+   "name": "Talonflame",
+   "weight": 24.5,
+   "pokeApiId": 663
+ },
+ {
+   "name": "Tauros",
+   "weight": 88.4,
+   "pokeApiId": 128
+ },
+ {
+   "name": "Paldean Tauros (Aqua Breed)",
+   "weight": 110,
+   "pokeApiId": 10252
+ },
+ {
+   "name": "Paldean Tauros (Blaze Breed)",
+   "weight": 85,
+   "pokeApiId": 10251
+ },
+ {
+   "name": "Paldean Tauros (Combat Breed)",
+   "weight": 115,
+   "pokeApiId": 10250
+ },
+ {
+   "name": "Tinkaton",
+   "weight": 112.8,
+   "slam": true,
+   "pokeApiId": 959
+ },
+ {
+   "name": "Torkoal",
+   "weight": 80.4,
+   "slam": true,
+   "crash": true,
+   "pokeApiId": 324
+ },
+ {
+   "name": "Torterra",
+   "weight": 310,
+   "slam": true,
+   "pokeApiId": 389
+ },
+ {
+   "name": "Toucannon",
+   "weight": 26,
+   "pokeApiId": 733
+ },
+ {
+   "name": "Toxapex",
+   "weight": 14.5,
+   "pokeApiId": 748
+ },
+ {
+   "name": "Toxicroak",
+   "weight": 44.4,
+   "pokeApiId": 454
+ },
+ {
+   "name": "Trevenant",
+   "weight": 71,
+   "pokeApiId": 709
+ },
+ {
+   "name": "Tsareena",
+   "weight": 21.4,
+   "pokeApiId": 763
+ },
+ {
+   "name": "Typhlosion",
+   "weight": 79.5,
+   "pokeApiId": 157
+ },
+ {
+   "name": "Hisuian Typhlosion",
+   "weight": 698,
+   "pokeApiId": 10233
+ },
+ {
+   "name": "Tyranitar",
+   "weight": 202,
+   "slam": true,
+   "pokeApiId": 248
+ },
+ {
+   "name": "Mega Tyranitar",
+   "weight": 255,
+   "slam": true,
+   "pokeApiId": 10049
+ },
+ {
+   "name": "Tyrantrum",
+   "weight": 270,
+   "pokeApiId": 697
+ },
+ {
+   "name": "Umbreon",
+   "weight": 27,
+   "pokeApiId": 197
+ },
+ {
+   "name": "Vanilluxe",
+   "weight": 57.5,
+   "pokeApiId": 584
+ },
+ {
+   "name": "Vaporeon",
+   "weight": 29,
+   "pokeApiId": 134
+ },
+ {
+   "name": "Venusaur",
+   "weight": 100,
+   "pokeApiId": 3
+ },
+ {
+   "name": "Mega Venusaur",
+   "weight": 155.5,
+   "pokeApiId": 10033
+ },
+ {
+   "name": "Victreebel",
+   "weight": 15.5,
+   "pokeApiId": 71
+ },
+ {
+   "name": "Mega Victreebel",
+   "weight": 125.5,
+   "pokeApiId": 10279
+ },
+ {
+   "name": "Vileplume",
+   "weight": 18.6,
+   "pokeApiId": 45
+ },
+ {
+   "name": "Vivillon",
+   "weight": 17,
+   "pokeApiId": 666
+ },
+ {
+   "name": "Volcarona",
+   "weight": 46,
+   "pokeApiId": 637
+ },
+ {
+   "name": "Watchog",
+   "weight": 27,
+   "pokeApiId": 505
+ },
+ {
+   "name": "Weavile",
+   "weight": 34,
+   "pokeApiId": 461
+ },
+ {
+   "name": "Whimsicott",
+   "weight": 6.6,
+   "pokeApiId": 547
+ },
+ {
+   "name": "Wyrdeer",
+   "weight": 95.1,
+   "pokeApiId": 899
+ },
+ {
+   "name": "Zoroark",
+   "weight": 81.1,
+   "pokeApiId": 571
+ },
+ {
+   "name": "Hisuian Zoroark",
+   "weight": 73,
+   "pokeApiId": 10239
+ }
 ]

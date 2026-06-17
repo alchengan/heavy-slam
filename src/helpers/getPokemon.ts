@@ -1,10 +1,10 @@
 import weights from "../data/pokemonWeights.json";
-import slammers from "../data/slammerWeights.json";
-import crashers from "../data/crasherWeights.json";
 
 export type PokemonWeight = {
   name: string;
   weight: number;
+  slam?: boolean;
+  crash?: boolean;
   pokeApiId: number;
 };
 
@@ -13,9 +13,13 @@ export function GetWeights(): PokemonWeight[] {
 }
 
 export function GetSlammerWeights(): PokemonWeight[] {
+  const pokemonWeights = weights;
+  const slammers = pokemonWeights.filter((pokemon) => pokemon.slam);
   return slammers;
 }
 
 export function GetCrasherWeights(): PokemonWeight[] {
+  const pokemonWeights = weights;
+  const crashers = pokemonWeights.filter((pokemon) => pokemon.crash);
   return crashers;
 }
