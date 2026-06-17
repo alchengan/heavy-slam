@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/heavy-slam/static/css/main.1c337a6e.css",
-    "main.js": "/heavy-slam/static/js/main.cc67f745.js",
+    "main.css": "/heavy-slam/static/css/main.9349c6a5.css",
+    "main.js": "/heavy-slam/static/js/main.9e93ce88.js",
     "static/js/453.92274083.chunk.js": "/heavy-slam/static/js/453.92274083.chunk.js",
     "index.html": "/heavy-slam/index.html",
-    "main.1c337a6e.css.map": "/heavy-slam/static/css/main.1c337a6e.css.map",
-    "main.cc67f745.js.map": "/heavy-slam/static/js/main.cc67f745.js.map",
+    "main.9349c6a5.css.map": "/heavy-slam/static/css/main.9349c6a5.css.map",
+    "main.9e93ce88.js.map": "/heavy-slam/static/js/main.9e93ce88.js.map",
     "453.92274083.chunk.js.map": "/heavy-slam/static/js/453.92274083.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c337a6e.css",
-    "static/js/main.cc67f745.js"
+    "static/css/main.9349c6a5.css",
+    "static/js/main.9e93ce88.js"
   ]
 }
