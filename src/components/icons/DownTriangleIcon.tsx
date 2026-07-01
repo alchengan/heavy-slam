@@ -1,28 +1,44 @@
 interface DownTriangleIconProps {
-  crashing: boolean;
+  mode: "heavyslam" | "heatcrash" | "grassknot" | "lowkick";
 }
 
-export default function DownTriangleIcon({ crashing }: DownTriangleIconProps) {
+export default function DownTriangleIcon({ mode }: DownTriangleIconProps) {
   return (
     <svg
-      fill={crashing ? "orange" : "gray"}
+      fill={
+        mode === "heavyslam"
+          ? "gray"
+          : mode === "heatcrash"
+            ? "red"
+            : mode === "grassknot"
+              ? "green"
+              : "orange"
+      }
       version="1.1"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"
       width="256px"
       height="256px"
       viewBox="-9.62 4 115.39 115.39"
-      stroke={crashing ? "orange" : "gray"}
-      stroke-width="4"
+      stroke={
+        mode === "heavyslam"
+          ? "gray"
+          : mode === "heatcrash"
+            ? "red"
+            : mode === "grassknot"
+              ? "green"
+              : "orange"
+      }
+      strokeWidth="4"
       transform="rotate(0)"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         stroke="#CCCCCC"
-        stroke-width="0.19230799999999998"
+        strokeWidth="0.19230799999999998"
       ></g>
       <g id="SVGRepo_iconCarrier">
         <g>

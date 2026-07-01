@@ -5,6 +5,7 @@ import { PokemonWeight } from "../helpers/getPokemon";
 interface PokemonPickerProps {
   pokemonOptions: PokemonWeight[];
   setWeight: Dispatch<SetStateAction<number>>;
+  disabled?: boolean;
 }
 
 type PokemonOption = {
@@ -15,6 +16,7 @@ type PokemonOption = {
 export default function PokemonPicker({
   pokemonOptions,
   setWeight,
+  disabled = false,
 }: PokemonPickerProps) {
   const [pokemon, setPokemon] = useState<PokemonWeight>();
 
@@ -35,6 +37,7 @@ export default function PokemonPicker({
       <Autocomplete
         className="w-full"
         disablePortal
+        disabled={disabled}
         options={options}
         renderInput={(params) => <TextField {...params} label="Pokémon" />}
         onChange={handlePokemonChange}
@@ -42,6 +45,7 @@ export default function PokemonPicker({
       <img
         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${pokemon ? pokemon.pokeApiId : "0"}.png`}
         className="w-48 py-4"
+        alt="pokemon sprite"
       />
       <div>{pokemon ? pokemon.name : "-"}</div>
       <div>{pokemon ? `${pokemon.weight} kg` : "-"}</div>

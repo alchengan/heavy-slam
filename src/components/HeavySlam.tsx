@@ -1,5 +1,5 @@
-import { alpha, styled, Switch } from "@mui/material";
-import { ChangeEvent, useEffect, useState } from "react";
+import { Button, ButtonGroup } from "@mui/material";
+import { useEffect, useState } from "react";
 import PokemonPicker from "./PokemonPicker";
 import DownTriangleIcon from "./icons/DownTriangleIcon";
 import {
@@ -8,14 +8,15 @@ import {
   GetWeights,
   PokemonWeight,
 } from "../helpers/getPokemon";
-import { blueGrey, orange } from "@mui/material/colors";
 
 export default function HeavySlam() {
   const [allWeights, setAllWeights] = useState<PokemonWeight[]>([]);
   const [slammerWeights, setSlammerWeights] = useState<PokemonWeight[]>([]);
   const [crasherWeights, setCrasherWeights] = useState<PokemonWeight[]>([]);
 
-  const [crashing, setCrashing] = useState(false);
+  const [mode, setMode] = useState<
+    "heavyslam" | "heatcrash" | "grassknot" | "lowkick"
+  >("heavyslam");
 
   const [attackWeight, setAttackWeight] = useState(0);
   const [defendWeight, setDefendWeight] = useState(0);
@@ -29,7 +30,7 @@ export default function HeavySlam() {
   const weightRatio =
     attackWeight === 0 || defendWeight === 0 ? 0 : attackWeight / defendWeight;
   const heavySlamBP =
-    weightRatio == 0
+    weightRatio === 0
       ? 0
       : weightRatio >= 5
         ? 120
@@ -40,55 +41,121 @@ export default function HeavySlam() {
             : weightRatio >= 2
               ? 60
               : 40;
+  const grassKnotBP =
+    defendWeight === 0
+      ? 0
+      : defendWeight >= 200
+        ? 120
+        : defendWeight >= 100
+          ? 100
+          : defendWeight >= 50
+            ? 80
+            : defendWeight >= 25
+              ? 60
+              : defendWeight >= 10
+                ? 40
+                : 20;
+  const moveBP =
+    mode === "heavyslam" || mode === "heatcrash" ? heavySlamBP : grassKnotBP;
 
-  const handleSlamCrashToggle = (e: ChangeEvent<HTMLInputElement>) => {
-    setCrashing(e.target.checked);
+  const handleModeSelect = (
+    _mode: "heavyslam" | "heatcrash" | "grassknot" | "lowkick",
+  ) => {
+    setMode(_mode);
   };
-
-  const SlamCrashToggle = styled(Switch)(({ theme }) => ({
-    "& .MuiSwitch-switchBase": {
-      color: blueGrey[300],
-    },
-    "& .MuiSwitch-switchBase + .MuiSwitch-track": {
-      backgroundColor: blueGrey[500],
-    },
-    "& .MuiSwitch-switchBase.Mui-checked": {
-      color: orange[600],
-      "&:hover": {
-        backgroundColor: alpha(orange[600], theme.palette.action.hoverOpacity),
-      },
-    },
-    "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track": {
-      backgroundColor: orange[400],
-    },
-  }));
 
   return (
     <div
-      className={`flex flex-col items-center ${crashing ? "bg-orange-200" : "bg-slate-300"}`}
+      className={`flex flex-col h-screen items-center ${
+        mode === "heavyslam"
+          ? "bg-slate-300"
+          : mode === "heatcrash"
+            ? "bg-red-200"
+            : mode === "grassknot"
+              ? "bg-green-200"
+              : "bg-orange-200"
+      }`}
     >
-      {crashing ? (
-        <div className="text-orange-600 text-4xl font-bold">Heat Crash</div>
-      ) : (
-        <div className="text-slate-600 text-4xl font-bold">Heavy Slam</div>
-      )}
-      <div className="flex items-center pb-2">
-        <div className="pb-1">Heavy Slam</div>
-        <SlamCrashToggle checked={crashing} onChange={handleSlamCrashToggle} />
-        <div className="pb-1">Heat Crash</div>
-      </div>
+      <ButtonGroup
+        className="my-4"
+        size="large"
+        variant="contained"
+        aria-label="mode-select"
+      >
+        <Button
+          className="w-40"
+          color="primary"
+          variant={mode === "heavyslam" ? "outlined" : "contained"}
+          onClick={(e) => handleModeSelect("heavyslam")}
+        >
+          <div
+            className={`${mode === "heavyslam" ? "text-slate-600" : "text-slate-300"} font-bold`}
+          >
+            Heavy Slam
+          </div>
+        </Button>
+        <Button
+          className="w-40"
+          color="error"
+          variant={mode === "heatcrash" ? "outlined" : "contained"}
+          onClick={(e) => handleModeSelect("heatcrash")}
+        >
+          <div
+            className={`${mode === "heatcrash" ? "text-red-600" : "text-red-300"} font-bold`}
+          >
+            Heat Crash
+          </div>
+        </Button>
+        <Button
+          className="w-40"
+          color="success"
+          variant={mode === "grassknot" ? "outlined" : "contained"}
+          onClick={(e) => handleModeSelect("grassknot")}
+        >
+          <div
+            className={`${mode === "grassknot" ? "text-green-600" : "text-green-500"} font-bold`}
+          >
+            Grass Knot
+          </div>
+        </Button>
+        <Button
+          className="w-40"
+          color="warning"
+          variant={mode === "lowkick" ? "outlined" : "contained"}
+          onClick={(e) => handleModeSelect("lowkick")}
+        >
+          <div
+            className={`${mode === "lowkick" ? "text-orange-600" : "text-orange-300"} font-bold`}
+          >
+            Low Kick
+          </div>
+        </Button>
+      </ButtonGroup>
       <PokemonPicker
-        pokemonOptions={crashing ? crasherWeights : slammerWeights}
+        pokemonOptions={
+          mode === "heavyslam"
+            ? slammerWeights
+            : mode === "heatcrash"
+              ? crasherWeights
+              : allWeights
+        }
         setWeight={setAttackWeight}
+        disabled={mode === "grassknot" || mode === "lowkick"}
       />
       <div className="relative h-48">
-        <DownTriangleIcon crashing={crashing} />
+        <DownTriangleIcon mode={mode} />
         <div className="absolute inset-0 flex flex-col justify-center items-center">
           <div className="text-xl">
-            {crashing ? "Heat Crash" : "Heavy Slam"}
+            {mode === "heavyslam"
+              ? "Heavy Slam"
+              : mode === "heatcrash"
+                ? "Heat Crash"
+                : mode === "grassknot"
+                  ? "Grass Knot"
+                  : "Low Kick"}
           </div>
           <div className="text-4xl font-bold pb-14">
-            {heavySlamBP == 0 ? "-" : heavySlamBP} BP
+            {moveBP === 0 ? "-" : moveBP} BP
           </div>
         </div>
       </div>
