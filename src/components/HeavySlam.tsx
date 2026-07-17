@@ -8,6 +8,7 @@ import {
   GetWeights,
   PokemonWeight,
 } from "../helpers/getPokemon";
+import AboutIcon from "./icons/AboutIcon";
 
 export default function HeavySlam() {
   const [allWeights, setAllWeights] = useState<PokemonWeight[]>([]);
@@ -65,101 +66,112 @@ export default function HeavySlam() {
   };
 
   return (
-    <div
-      className={`flex flex-col h-screen items-center ${
-        mode === "heavyslam"
-          ? "bg-slate-300"
-          : mode === "heatcrash"
-            ? "bg-red-200"
-            : mode === "grassknot"
-              ? "bg-green-200"
-              : "bg-orange-200"
-      }`}
-    >
-      <ButtonGroup
-        className="my-4"
-        size="large"
-        variant="contained"
-        aria-label="mode-select"
-      >
-        <Button
-          className="w-40"
-          color="primary"
-          variant={mode === "heavyslam" ? "outlined" : "contained"}
-          onClick={(e) => handleModeSelect("heavyslam")}
-        >
-          <div
-            className={`${mode === "heavyslam" ? "text-slate-600" : "text-slate-300"} font-bold`}
-          >
-            Heavy Slam
-          </div>
-        </Button>
-        <Button
-          className="w-40"
-          color="error"
-          variant={mode === "heatcrash" ? "outlined" : "contained"}
-          onClick={(e) => handleModeSelect("heatcrash")}
-        >
-          <div
-            className={`${mode === "heatcrash" ? "text-red-600" : "text-red-300"} font-bold`}
-          >
-            Heat Crash
-          </div>
-        </Button>
-        <Button
-          className="w-40"
-          color="success"
-          variant={mode === "grassknot" ? "outlined" : "contained"}
-          onClick={(e) => handleModeSelect("grassknot")}
-        >
-          <div
-            className={`${mode === "grassknot" ? "text-green-600" : "text-green-500"} font-bold`}
-          >
-            Grass Knot
-          </div>
-        </Button>
-        <Button
-          className="w-40"
-          color="warning"
-          variant={mode === "lowkick" ? "outlined" : "contained"}
-          onClick={(e) => handleModeSelect("lowkick")}
-        >
-          <div
-            className={`${mode === "lowkick" ? "text-orange-600" : "text-orange-300"} font-bold`}
-          >
-            Low Kick
-          </div>
-        </Button>
-      </ButtonGroup>
-      <PokemonPicker
-        pokemonOptions={
+    <div className="static">
+      <div
+        className={`flex flex-col h-screen items-center ${
           mode === "heavyslam"
-            ? slammerWeights
+            ? "bg-slate-300"
             : mode === "heatcrash"
-              ? crasherWeights
-              : allWeights
-        }
-        setWeight={setAttackWeight}
-        disabled={mode === "grassknot" || mode === "lowkick"}
-      />
-      <div className="relative h-48">
-        <DownTriangleIcon mode={mode} />
-        <div className="absolute inset-0 flex flex-col justify-center items-center">
-          <div className="text-xl">
-            {mode === "heavyslam"
-              ? "Heavy Slam"
+              ? "bg-red-200"
+              : mode === "grassknot"
+                ? "bg-green-200"
+                : "bg-orange-200"
+        }`}
+      >
+        <ButtonGroup
+          className="my-4"
+          size="large"
+          variant="contained"
+          aria-label="mode-select"
+        >
+          <Button
+            className="w-40"
+            color="primary"
+            variant={mode === "heavyslam" ? "outlined" : "contained"}
+            onClick={(e) => handleModeSelect("heavyslam")}
+          >
+            <div
+              className={`${mode === "heavyslam" ? "text-slate-600" : "text-slate-300"} font-bold`}
+            >
+              Heavy Slam
+            </div>
+          </Button>
+          <Button
+            className="w-40"
+            color="error"
+            variant={mode === "heatcrash" ? "outlined" : "contained"}
+            onClick={(e) => handleModeSelect("heatcrash")}
+          >
+            <div
+              className={`${mode === "heatcrash" ? "text-red-600" : "text-red-300"} font-bold`}
+            >
+              Heat Crash
+            </div>
+          </Button>
+          <Button
+            className="w-40"
+            color="success"
+            variant={mode === "grassknot" ? "outlined" : "contained"}
+            onClick={(e) => handleModeSelect("grassknot")}
+          >
+            <div
+              className={`${mode === "grassknot" ? "text-green-600" : "text-green-500"} font-bold`}
+            >
+              Grass Knot
+            </div>
+          </Button>
+          <Button
+            className="w-40"
+            color="warning"
+            variant={mode === "lowkick" ? "outlined" : "contained"}
+            onClick={(e) => handleModeSelect("lowkick")}
+          >
+            <div
+              className={`${mode === "lowkick" ? "text-orange-600" : "text-orange-300"} font-bold`}
+            >
+              Low Kick
+            </div>
+          </Button>
+        </ButtonGroup>
+        <PokemonPicker
+          pokemonOptions={
+            mode === "heavyslam"
+              ? slammerWeights
               : mode === "heatcrash"
-                ? "Heat Crash"
-                : mode === "grassknot"
-                  ? "Grass Knot"
-                  : "Low Kick"}
-          </div>
-          <div className="text-4xl font-bold pb-14">
-            {moveBP === 0 ? "-" : moveBP} BP
+                ? crasherWeights
+                : allWeights
+          }
+          setWeight={setAttackWeight}
+          disabled={mode === "grassknot" || mode === "lowkick"}
+        />
+        <div className="relative h-48">
+          <DownTriangleIcon mode={mode} />
+          <div className="absolute inset-0 flex flex-col justify-center items-center">
+            <div className="text-xl">
+              {mode === "heavyslam"
+                ? "Heavy Slam"
+                : mode === "heatcrash"
+                  ? "Heat Crash"
+                  : mode === "grassknot"
+                    ? "Grass Knot"
+                    : "Low Kick"}
+            </div>
+            <div className="text-4xl font-bold pb-14">
+              {moveBP === 0 ? "-" : moveBP} BP
+            </div>
           </div>
         </div>
+        <PokemonPicker
+          pokemonOptions={allWeights}
+          setWeight={setDefendWeight}
+        />
       </div>
-      <PokemonPicker pokemonOptions={allWeights} setWeight={setDefendWeight} />
+      <div className="absolute bottom-10 left-10 flex gap-2">
+        <p className="font-extrabold italic text-6xl text-slate-600">
+          Heavy Slam
+        </p>
+        <AboutIcon />
+      </div>
     </div>
   );
 }
